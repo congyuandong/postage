@@ -1,0 +1,15 @@
+{
+    "name": "ubika",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background" : {
+        "persistent": false,
+        "scripts": ["jquery-1.8.3.min.js", "iwant.js"]
+    },
+    "permissions": [
+      "notifications",
+      "storage",
+      "cookies"
+    ],
+    "content_security_policy": "script-src 'self'; object-src 'self'"
+}
